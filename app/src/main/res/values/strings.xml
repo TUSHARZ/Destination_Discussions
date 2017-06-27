@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DestinationDiscussions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="address">
+        <item>449 Palo Verde Road,Gianesville,FL</item>
+        <item> 6731 Thompson Street,Gainesville,FL</item>
+        <item>8771 Thompson Boulevard,Orlando,FL</item>
+        <item>1234 Verano Place ,Orlando,FL</item>
+    </string-array>
+</resources>

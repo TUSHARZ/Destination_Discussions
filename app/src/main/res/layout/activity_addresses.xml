@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgsss"
+    android:layout_height="wrap_content"
+    tools:context="com.example.tushar.destinationdiscussions.Addresses">
+
+    <ImageView
+        android:id="@+id/gogogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/discussion"></ImageView>
+
+
+
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+
+         <AutoCompleteTextView
+             android:id="@+id/text"
+             android:layout_width="192dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="80dp"
+             android:background="@drawable/shape"
+             android:hint="Your Address"
+             android:layout_marginTop="30dp"
+
+             android:padding="15dp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="75dp"
+
+
+             />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"
+        android:hint="Your name"
+        android:padding="15dp"
+        android:layout_weight="2"/>
+
+         <EditText
+             android:id="@+id/phone"
+             android:layout_width="232dp"
+             android:layout_height="wrap_content"
+
+
+             android:layout_gravity="center"
+             android:layout_marginBottom="15dp"
+             android:background="@drawable/shape"
+             android:hint="Phone.."
+             android:layout_weight="2"
+             android:padding="15dp" />
+         <EditText
+             android:id="@+id/gender"
+             android:layout_width="232dp"
+             android:layout_height="wrap_content"
+
+
+             android:layout_gravity="center"
+             android:layout_marginBottom="15dp"
+             android:background="@drawable/shape"
+             android:hint="Gender"
+             android:padding="15dp"
+             android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/post"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginLeft="150dp"
+        android:padding="15dp"
+        android:text="Submit"
+        android:layout_marginTop="40dp"
+        android:layout_weight="2"/>
+     </LinearLayout>
+ </ScrollView>
+</LinearLayout>

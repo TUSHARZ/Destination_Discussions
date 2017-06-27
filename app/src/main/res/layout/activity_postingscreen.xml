@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgsss"
+    tools:context="com.example.tushar.destinationdiscussions.postingscreen">
+
+
+
+        <ImageView
+            android:id="@+id/imageset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unnamed"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+          />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Add Title for Discussion.."
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+       android:layout_weight="2"
+            android:padding="15dp"
+            android:id="@+id/titleset"
+            android:layout_marginTop="30dp"/>
+
+            <Button
+                android:id="@+id/btn"
+                style="@style/com_facebook_button_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="100dp"
+                android:text="Post" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

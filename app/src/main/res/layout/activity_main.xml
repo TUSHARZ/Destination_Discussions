@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsss"
+    tools:context="com.example.tushar.destinationdiscussions.MainActivity">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+       android:src="@drawable/sf"
+       android:scaleType="centerCrop"
+       android:adjustViewBounds="true"
+       android:layout_marginTop="106dp"
+       android:id="@+id/imageView2"
+       android:padding="15dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true" />
+
+   <com.google.android.gms.common.SignInButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/signin"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+
+       android:layout_marginBottom="50dp"></com.google.android.gms.common.SignInButton>
+
+
+</RelativeLayout>

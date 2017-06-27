@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsss"
+    tools:context="com.example.tushar.destinationdiscussions.splash">
+
+    <RelativeLayout
+        android:id="@+id/animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="113dp"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/discussion" />
+
+        <TextView
+            android:id="@+id/texttt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splash"
+            android:gravity="center"
+            android:padding="15dp"
+
+
+            android:text="Destination Discussion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texttt"
+            android:gravity="center"
+            android:padding="15dp"
+
+            android:text="Discuss With Us..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128346812135",
+    "firebase_url": "https://destinationdiscussions-dd40c.firebaseio.com",
+    "project_id": "destinationdiscussions-dd40c",
+    "storage_bucket": "destinationdiscussions-dd40c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128346812135:android:3c5cafdefb4008ca",
+        "android_client_info": {
+          "package_name": "com.example.tushar.destinationdiscussions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128346812135-14k7t1dtp38c218r9j7vaj1md8virnm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tushar.destinationdiscussions",
+            "certificate_hash": "f8f36ea14b0ed3ca6a3b7bdbdaf924552c029d71"
+          }
+        },
+        {
+          "client_id": "128346812135-9810jad7m6434cun1m6e76b6koutopf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-12qWbIVo4Xw4yNojNzP9Er_sBBhLwGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128346812135-9810jad7m6434cun1m6e76b6koutopf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
